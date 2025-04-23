@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt W</title>
+  
+  <style> 
+  
+    body {
+      margin: 0;
+      padding: 0;
+      font-family:Arial, Helvetica, sans-serif;
+  }
+        
+
+  .top{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+  }
+    .title {
+      background-color: rgb(224, 224, 224);
+             text-align: center;
+             font-size: 30px;
+             margin-top: 0 ;
+             padding: 50px ;
+ }    
+    
+  
+            
+    header {
+      background: rgb(40, 41, 56);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-bottom: 0;
+  }
+   
+    
+  nav {
+            text-align: center;
+            font-size: 20px;
+            
+}
+
+        nav ul {
+            display: inline-block; 
+             padding: 30px;
+             margin: 0;
+           
+           
+}
+
+        nav li {
+            display: inline;
+            margin: 0 50px;
+           
+}   
+
+        .nonline{
+            text-decoration: none;
+        }
+
+        .product-title{
+        text-align: center;
+        padding-top: 50px;
+      font-size: 30px;
+      }
+    
+   
+   
+      .notice,.highlite {
+      text-align: center;
+      font-size: 20px;
+      
+  
+    }
+
+    
+    .notice2 {
+      font-size: 20px;
+      background-color: rgb(240, 173, 50);
+      padding: 15px 20px;
+      display: inline-block;
+      border-radius: 10px;
+      
+    }
+   
+   
+   
+   
+   
+   
+        .product-grid {
+          display: grid; 
+          grid-template-columns: repeat(4, 1fr);
+        padding: 100px;
+        max-width: 1200px;
+        gap: 50px 30px;
+        margin: 0px auto;
+       
+  }
+
+    .product-box {
+      width: auto;
+      height: auto;
+      background-color: rgb(255, 255, 255);
+       border: 1px solid rgb(245, 245, 245);
+       border-radius: 15px;
+       padding: 25px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.07);
+        transition: transform 0.2s ease;
+  }
+
+
+    .product-box:hover {
+       transform: scale(1.02);
+  }
+
+    .product-box img {
+      min-width: max-content;
+      min-height: max-content;
+       max-width: 180px;
+       max-height: 180px ;
+        
+  }
+
+    .price {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        margin: 15px ;
+  }
+
+    .buy-btn {
+    
+        display: inline-block;
+        background-color: rgb(0, 0, 0);
+       color: #fff;
+      border: none;
+        padding: 10px 20px;
+       border-radius: 6px;
+      cursor: pointer;
+        transition: background-color 0.2s ease;
+  }
+
+    .buy-btn:hover {
+          background-color: green;
+  }
+
+   
+            
+    a:hover { 
+      text-decoration: underline;
+    }
+    
+  
+   
+    </style>
+
+</head>
+  
+
+
+
+  <body>
+    <section class="top">
+    <header> Welcome to my first Onlineshop</header>
+    <p class="title">  myrig2buy.com</p>
+    
+    <nav>
+      <ul>
+          
+          <li> <a class="nonline" href="index.html">Home</a></li>
+          <li> <a href="product.html" >Products</a> </li>
+          <li> <a class="nonline" href="contact.html"> Contact</a> </li>
+      
+      </ul>
+  </nav>
+      <hr>
+
+
+    <p class="product-title">Hardware</p>
+    <p class="notice">These are the parts I chose for my Computer. <br>There's a successor model for the graphics card and Monitor. <br>I've linked both of them so you get the best for your buck. 
+    </p>
+  
+  <div class="highlite">
+    <p class="notice2"> Prices may vary from those shown.</p>
+  </div>
+</section>   
+    
+
+<div class="product-grid">
+          <div class="product-box">
+          <img src="pictures/gpu2.PNG" alt="RTX 4060 TI ">
+          <h4>Nvidia RTX 4060 TI 8GB</h4>
+          <p class="price">€400,00</p>
+          <a href="https://www.notebooksbilliger.de/gigabyte+geforce+rtx+4060+ti+windforce+oc+8g+grafikkarte+810763" target="_blank" class="buy-btn">Jetzt kaufen</a>
+
+        </div>
+       
+        <div class="product-box">
+          <img src="pictures/cpu.jpg" >
+          <h4>AMD Ryzen 5 5600</h4>
+          <p class="price">€103,99</p>
+          <a href="https://www.mindfactory.de/product_info.php/AMD-Ryzen-5-5600-6x-3-50GHz-So-AM4-BOX_1447836.html" target="_blank" class="buy-btn">Jetzt kaufen</a>
+        </div>
+        
+        <div class="product-box">
+          <img src="pictures/mainboard.jpg" >
+          <h4>Gigabyte B550M</h4>
+          <p class="price">€119,89</p>
+          <a href="https://www.mindfactory.de/product_info.php/Gigabyte-B550-AORUS-Elite-V2-AMD-B550-So-AM4-Dual-Channel-DDR4-ATX-Reta_1383482.html" target="_blank"class="buy-btn">Jetzt kaufen</a>
+        </div>
+        
+        <div class="product-box">
+          <img src="pictures/ram.jpg" >
+          <h4>32GB Corsair DDR4</h4>
+          <p class="price">71,89</p>
+          <a href="https://www.mindfactory.de/product_info.php/32GB-Corsair-Vengeance-RGB-PRO-schwarz-DDR4-3600-DIMM-CL18-Dual-Kit_1343047.html" target="_blank" class="buy-btn">Jetzt kaufen</a>
+        
+        </div>
+        <div class="product-box">
+          <img src="pictures/ssd.jpg" >
+          <h4>2TB WD Black SN850X</h4>
+          <p class="price">€139,99</p>
+          <a href="https://www.mindfactory.de/product_info.php/2TB-WD-Black-SN850X-M-2-2280-PCIe-4-0-x4-3D-NAND-TLC--WDS200T2X0E-_1463541.html" target="_blank" class="buy-btn">Jetzt kaufen</a>
+        </div>
+       
+        <div class="product-box">
+          <img src="pictures/cooler.jpg" >
+          <h4>be quiet! Pure Rock 2</h4>
+          <p class="price">€40,99</p>
+          <a href="https://www.mindfactory.de/product_info.php/be-quiet--Pure-Rock-2-Black-Tower-Kuehler_1359907.html" target="_blank"class="buy-btn">Jetzt kaufen</a>
+        </div>
+       
+        <div class="product-box">
+          <img src="pictures/psu.jpg" >
+          <h4>be quiet! 650 Watt Power</h4>
+          <p class="price">€59.49</p>
+          <a href="https://www.mindfactory.de/product_info.php/650-Watt-be-quiet--System-Power-10-Non-Modular-80--Bronze_1470340.html"target="_blank" class="buy-btn">Jetzt kaufen</a>
+        </div>
+        
+        <div class="product-box">
+          <img src="pictures/case.jpg" >
+          <h4>be quiet! Case 500DX</h4>
+          <p class="price">€103,40</p>
+          <a href="https://www.mindfactory.de/product_info.php/be-quiet--Pure-Base-500DX-Midi-Tower-ohne-Netzteil-schwarz_1358986.html"target="_blank" class="buy-btn">Jetzt kaufen</a>
+        </div>
+      
+      </div>
+      <div class="top">
+      <p class="product-title">Accessories</p>
+    <p class="notice"> Here is a aditional list of my equipment. <br> Quality wise I can highly recommend you the products. <br> If you like you can go for it but its really just preference.</p>
+  </div>
+      <div class="product-grid">
+        <div class="product-box">
+          <img src="pictures/lgmonitor.jpg" >
+          <h4> Lg Monitor WQHD</h4>
+          <p class="price">€199,95</p>
+          <a href="https://amzn.eu/d/90joGx4" target="_blank" class="buy-btn">Jetzt kaufen</a>
+        </div>
+
+        <div class="product-box">
+          <img src="pictures/wooting.PNG">
+          <h4> Wooting keyboard</h4>
+          <p class="price">€199,98</p>
+          <a href="https://wooting.io/configurator/wooting-60he?product=plus&model=ISO&lang=German&keycaps=40998903775343&quantity=1" target="_blank" class="buy-btn"> Jetzt kaufen</a>
+        </div>
+
+        <div class="product-box">
+          <img src="pictures/razer.PNG">
+          <h4>Razer Deathadder V2 Pro</h4>
+          <p class="price">€86,76</p>
+          <a href="https://amzn.eu/d/1Uq6oIS" target="_blank" class="buy-btn">Jetzt kaufen</a>
+        </div>
+
+        <div class="product-box">
+          <img src="pictures/pad.jpg" >
+          <h4>Saturn Pro Mousepad</h4>
+          <p class="price">€59,90</p>
+          <a href="https://amzn.eu/d/6xO4JqH" target="_blank" class="buy-btn">Jetzt kaufen</a>
+        </div>
+
+      
+        <div class="product-box">
+          <img src="pictures/mic.png">
+          <h4>HyperX Quadcast</h4>
+          <p class="price">€86,29</p>
+          <a href="https://amzn.eu/d/9wat0B5" target="_blank" class="buy-btn"> Jetzt kaufen</a>
+        </div>
+      
+        <div class="product-box">
+          <img src="pictures/bose.jpeg" >
+          <h4>Bose Headphones</h4>
+          <p class="price">€199,95</p>
+          <a href="https://www.bose.de/de_de/products/certified_refurbished/refurbished_headphones/qc45-fr.html#v=qc45_fr_black" target="_blank" class="buy-btn">Jetzt kaufen</a>
+        </div>
+          
+        
+
+      </div>
+      
+      
+
+    
+    
+
+    
+
+      
+       
+  </body>
+</html>

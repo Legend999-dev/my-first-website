@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt W</title>
+    
+    <style> 
+    
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif; 
+}
+        
+        
+        .top{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    
+
+        .title {
+            background-color: rgb(224, 224, 224);
+             text-align: center;
+             font-size: 30px;
+             margin-top: 0;
+             padding: 50px ;
+}    
+    
+            
+        header {
+             background: #282938;
+             color: white;
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 0;
+            
+            
+}
+
+        nav {
+            text-align: center;
+            font-size: 20px;
+            
+}
+
+        nav ul {
+            display: inline-block; 
+             padding: 30px;
+             margin: 0;
+            list-style: none;
+           
+}
+
+        nav li {
+            display: inline;
+            margin: 0 50px;
+           
+}   
+
+        .nonline{
+            text-decoration: none;
+        }
+
+       
+
+        .intro {
+        text-align: center;
+        padding: 80px;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       
+       
+       }
+       
+       
+       
+       
+       
+       footer {
+    position: relative; 
+    text-align: center;
+    background-image: url(pictures/hardware.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+
+footer .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+}
+
+footer p, footer button {
+    position: relative;
+    z-index: 2;
+}
+
+
+footer button a {
+    text-decoration: none;
+    color: black;
+}
+
+        
+    
+    
+    
+footer button{
+             padding: 20px;
+             border: none;
+             border-radius: 8px;
+             cursor: pointer;
+             background-color:rgb(159, 89, 224);
+             font-size: 25px;
+             transition: transform 0.2s ease, background-color 1.0s;
+             box-shadow: 10px 10px 10px rgb(0, 0, 0,0.5);
+}   
+      
+        button:hover{
+            transform: scale(1.05) ;
+            background-color: orange;
+        }
+      
+        .setup{
+            color: white;
+            text-decoration: none;
+        }
+        .setup:hover {
+            color: rgb(0, 0, 0);
+            transition: color 1.0s;
+        }
+    
+       
+            
+        a:hover { 
+            text-decoration: underline;
+}
+ 
+
+    </style>
+</head>
+
+
+    <body>
+        
+    <section class="top">
+        <header> Welcome to my first Onlineshop </header>
+        
+       
+        <p class="title">  myrig2buy.com</p>
+    
+       
+       
+    <nav>
+        <ul>
+            
+            <li> <a href="index.html">Home</a></li>
+            <li> <a class="nonline" href="product.html" >Products</a> </li>
+            <li> <a class="nonline" href="contact.html"> Contact</a> </li>
+        
+        </ul>
+    </nav>
+
+</section>
+        <hr>
+    
+    
+    <div class="intro">
+        <h2>Hello world</h2> 
+        <p>If you love to play videogames as much as I do, so you gonna need a good and reliable gaming-pc. <br>
+            No matter if you just want to watch your favorite You tuber, browse the internet or do some homework. <br> <br> With this pc you can conquer worlds, challange the gods, discover the secrets of the universe or travel back in time to witness the history of humanity. 
+           <br> It can do all the task you ask for and much more.
+        </p>
+
+    </div> 
+        
+        
+        
+        
+        
+        
+        
+    <footer>
+        <div class="overlay"></div>
+        
+        <p>Here you can find all the hardware parts and equipment I use for my PC</p> 
+        <button>
+          <a class="setup" href="product.html">the setup</a>
+        </button>
+      </footer>
+      
+    
+
+    
+
+      
+    </body>
+</html>
